@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div dir={lang === 'ar' ? 'rtl' : 'ltr'}>
-      <Component {...pageProps} switchLang={switchLang} lang={lang} />
+      <Component {...pageProps} switchLang={switchLang} />
     </div>
   )
 }
