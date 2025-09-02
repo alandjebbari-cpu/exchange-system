@@ -1,0 +1,1 @@
+export function Footer(){return <footer className='bg-gray-100 text-center p-2 text-sm'>© Exchange System</footer>}
