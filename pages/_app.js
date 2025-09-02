@@ -1,11 +1,11 @@
-import './styles/globals.css'
+import '../styles/globals.css'
 import { useState, useEffect } from 'react'
 
 export default function App({ Component, pageProps }) {
-  const [lang, setLang] = useState('ar') // اللغة الافتراضية
+  const [lang, setLang] = useState('ar')
 
   useEffect(() => {
-    // نخلي اللغة محفوظة بالمخزن المحلي
+    // نخلي اللغة مخزونة بالمخزن المحلي
     const savedLang = localStorage.getItem('lang')
     if (savedLang) {
       setLang(savedLang)
